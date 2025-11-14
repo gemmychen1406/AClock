@@ -85,7 +85,7 @@ namespace AClock
 
             // Hiển thị thông báo Pop-up
             // Ứng dụng sẽ TẠM DỪNG ở đây cho đến khi người dùng nhấn OK
-            MessageBox.Show("Đã đến giờ báo thức!", "BÁO THỨC!", 
+            MessageBox.Show("Đã đến giờ báo thức!", "Alarm!", 
                 MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             
             // DỪNG âm thanh sau khi người dùng bấm OK
@@ -132,4 +132,5 @@ namespace AClock
             Application.Exit();
         }
     }
+
 }
